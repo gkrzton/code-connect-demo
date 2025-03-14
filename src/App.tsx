@@ -12,7 +12,36 @@ function App() {
       }}
     >
       <Button variant="primary" onClick={() => setText(text + "!")}>{text}</Button>
+   
+      <Dialog>
+    <DialogContent
+        headline={<h2>Here is a headline</h2>}
+        content={
+            <p>
+                Here is some content. Here is some content.
+                Here is some content. Here is some content.
+                Here is some content. Here is some content.
+                Here is some content. Here is some content.
+            </p>
+        }
+    />
+    <DialogActions>
+        <Button
+            variant="inverse"
+            state="Default"
+            size="small"
+            label="Cancel"
+        />
+        <Button
+            variant="secondary"
+            state="Default"
+            size="medium"
+            label="Action"
+        />
+    </DialogActions>
+</Dialog>
     </main>
+    
   );
 }
 export default App;
