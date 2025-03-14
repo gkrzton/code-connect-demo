@@ -9,8 +9,8 @@ Barebones React demo of Figma's [Code Connect](https://github.com/figma/code-con
 
 ## Figma file and Code Connect prep
 
-- Duplicate [this file](https://www.figma.com/community/file/1367910052286562243) and get the file key from the duplicated file url.
-- In this repository, find all `SS2xN8AagXT0ofpo8PNIp9` and replace with the new file's file key.
+- Duplicate [this file](https://www.figma.com/design/s3lzR0T5oGJIrhWcU7yb1H/%5BLAB%5D-Code-Connect-Demo?node-id=9215-9328&m=dev) and get the file key from the duplicated file url.
+- In this repository, find all `s3lzR0T5oGJIrhWcU7yb1H` and replace with the new file's file key.
 - `npx figma connect publish --token <your-token>` to publish the existing docs
 
 ### Optional: env tokens
